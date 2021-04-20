@@ -44,8 +44,6 @@ p {
 /* Header content */
 .header-content{
     letter-spacing: 0.02em;
-    padding-top: 25px;
-    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
 }
 .list{
@@ -78,6 +76,10 @@ p {
 }
 .aut-site{
     display: flex;
+}
+.heading-link{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .heading-link:not(:last-child){
     margin-right: 50px;
@@ -122,13 +124,11 @@ p {
     overflow: hidden;
   }
   /* Main Hero */
-.content-hero{
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
 .hero {
     background-color: var(--background-color);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .title{
     color: var(--main-text-color);
@@ -144,6 +144,12 @@ p {
     color: var(--main-text-color);
     background-color: var(--accent-text-color);
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    border-width: 0;
 }
 /* Our advange */
 .title-advange{
@@ -164,9 +170,6 @@ p {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.section-position{
-    padding-bottom: 0px;
-}
 .menu-adv{
     flex-basis: calc((100% - 4 * 30px)/4);
     margin-left: 30px;
@@ -174,6 +177,9 @@ p {
     text-align: left;
 }
 /* What are we doing */
+.section-position{
+    padding-top: 0px;
+}
 .card-set{
     display: flex;
     flex-wrap: wrap;
@@ -222,7 +228,6 @@ p {
 }
 /* Footer content */
 .footer-icon{
-    margin-top: 60px;
     margin-bottom: 20px;
     margin-right: 0px;
 }
@@ -231,16 +236,17 @@ p {
 }
 .footer-content{
     background-color: var(--background-color);
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 .footer-adress{
     font-size: 14px;
     line-height: 1.71;
     color:var(--main-text-color);
     font-style: normal;
-    margin-bottom: 0px;
+    margin-bottom: 6px;
 }
 .mail-position{
-    padding-top: 6px;
     margin-bottom: 9px;
 }
 .link{
@@ -252,9 +258,6 @@ p {
 }
 .footer-link{
     display: block;
-}
-.tel{
-    padding-bottom: 60px;
 }
 /* Portfolio page */
 .port-title{
@@ -294,6 +297,9 @@ p {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    padding: 8px 22px 8px 22px;
+    border-radius: 4px;
+    border-width: 0
 }
 .button-link:hover,
 .button-link:focus{
