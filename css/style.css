@@ -370,7 +370,8 @@ p {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
 }
-.link-footer-svg:hover{
+.link-footer-svg:hover,
+.link-footer-svg:focus{
     background-color: var(--accent-text-color);
 }
 .flex-box-footer{
